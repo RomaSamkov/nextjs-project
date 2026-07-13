@@ -11,7 +11,7 @@ export default function HomePage() {
         {/* Головний екран (Hero) */}
         <section
           id="hero"
-          className="min-h-screen bg-slate-50 flex items-center justify-center"
+          className="min-h-screen bg-emerald-100 flex items-center justify-center"
         >
           <div className="text-center">
             <h1 className="text-4xl font-bold mb-4 text-gray-600">
@@ -26,10 +26,10 @@ export default function HomePage() {
         {/* Блок "Про мене" */}
         <section
           id="about"
-          className="min-h-screen bg-white flex items-center justify-center border-t"
+          className="min-h-screen bg-sky-100 flex items-center justify-center border-t border-gray-200"
         >
           <div className="text-center">
-            <h2 className="text-3xl font-bold mb-4">Про мене</h2>
+            <h2 className="text-3xl font-bold mb-4 text-gray-600">Про мене</h2>
             <p className="text-gray-600 max-w-md">
               Тут буде ваша професійна історія, освіта та волонтерський досвід.
             </p>
@@ -39,10 +39,12 @@ export default function HomePage() {
         {/* Блок "Напрямки" */}
         <section
           id="services"
-          className="min-h-screen bg-slate-50 flex items-center justify-center border-t"
+          className="min-h-screen bg-gray-50 flex items-center justify-center border-t"
         >
           <div className="text-center">
-            <h2 className="text-3xl font-bold mb-4">Напрямки допомоги</h2>
+            <h2 className="text-3xl font-bold mb-4 text-gray-600">
+              Напрямки допомоги
+            </h2>
             <p className="text-gray-600">
               Тривожність, ПТСР, підтримка у кризових ситуаціях.
             </p>
@@ -55,7 +57,7 @@ export default function HomePage() {
           className="min-h-screen bg-white flex items-center justify-center border-t"
         >
           <div className="text-center">
-            <h2 className="text-3xl font-bold mb-4">Контакти</h2>
+            <h2 className="text-3xl font-bold mb-4 text-gray-600">Контакти</h2>
             <p className="text-gray-600">
               Форма запису, Telegram, Viber або Email.
             </p>
