@@ -39,7 +39,7 @@ export default function HomePage() {
         {/* Блок "Напрямки" */}
         <section
           id="services"
-          className="min-h-screen bg-gray-50 flex items-center justify-center border-t border-gray-200"
+          className="min-h-screen bg-gray-50 flex items-center justify-center border-t"
         >
           <div className="text-center">
             <h2 className="text-3xl font-bold mb-4 text-gray-600">
