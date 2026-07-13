@@ -6,7 +6,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         {/* Логотип або Ім'я */}
         <div className="font-bold text-xl text-emerald-600">
-          <Link href="#hero">Психолог-Волонтер</Link>
+          <Link href="#hero">Logo Психолог</Link>
         </div>
 
         {/* Пункти меню (Якірні посилання) */}
