@@ -18,7 +18,7 @@ export default function Navbar() {
           onClick={closeMenu}
           className="font-bold text-lg sm:text-xl text-sky-400 hover:text-sky-300 transition"
         >
-          Doctor Igrunova
+          Лікар-психолог
         </Link>
 
         {/* Десктопне меню (для екранів від md) */}
